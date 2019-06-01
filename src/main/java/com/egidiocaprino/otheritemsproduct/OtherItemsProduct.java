@@ -1,4 +1,4 @@
-package com.egidiocaprino.com.egidiocaprino;
+package com.egidiocaprino.otheritemsproduct;
 
 import com.google.common.collect.Lists;
 
