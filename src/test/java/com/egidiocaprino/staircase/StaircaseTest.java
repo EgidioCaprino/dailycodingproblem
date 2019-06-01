@@ -8,7 +8,6 @@ import java.util.Set;
 import static org.junit.Assert.assertSame;
 
 public class StaircaseTest {
-
   @Test public void twoSteps() {
     final Set<Integer> steps = ImmutableSet.of(1, 2);
     final int n = 4;
@@ -17,5 +16,4 @@ public class StaircaseTest {
     final int actual = staircase.calculate(n);
     assertSame(expected, actual);
   }
-
 }

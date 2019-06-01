@@ -8,7 +8,6 @@ import java.util.List;
 import static org.junit.Assert.assertSame;
 
 public class SumTest {
-
   @Test public void sumExists() {
     final List<Integer> list = ImmutableList.of(10, 15, 3, 7);
     final int k = 17;
@@ -26,5 +25,4 @@ public class SumTest {
     final boolean actual = sum.canSumTo(k);
     assertSame(expected, actual);
   }
-
 }
